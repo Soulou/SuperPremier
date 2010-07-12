@@ -1,0 +1,29 @@
+
+* r5 : Léo : Gestion du temps, Ã  la seconde prÃªt avec time_t et la 
+	     fonction time(NULL);
+
+* r6 : Léo : - Makefile : Mise en forme (variables)
+                          Possibilité de DEBUG avec "make debug"
+             - superpremier.c : Mise en place de la fonction 
+	                        debug(char *, ...)
+             - * : Mise en place du debug dans tous les fichiers 
+	           (acessible via "make debug"
+                   (attention premier(int i) très lent avec affichage)
+
+
+* r8 : Steven : - thread_1.c et thread_2.c : 
+		  abandon de time.h, time_t et time(NULL) au profit de 
+		  sys/time.h, struct timeval et 
+		  gettimeofday(struct timeval * a,void*) qui permettent la
+		  précision allant jusqu'aux microsecondes
+
+* r9 : Léo : Recodage de SuperPremier, plus qu'un seul fichier pour tout.
+
+* r10 : Léo : fix de précipitation de la r9 (modif Makefile et superpermier.c)
+
+* r11 : Léo : plageThread : tableau multidimensionnelle
+			  128k, 256k, 512k,1m, 2m, 4m ready de 1 à 8 thread
+
+* r12 : Steven : Correction de l'algorithme de Premier(long) dans thread.c
+
+* r13 : Léo : Gestion de l'écriture dans un fichier, le log est dans SuperPremier.log			 

@@ -1,0 +1,8 @@
+superpremier.c :
+	- recherche automatique du nombre de threads
+	- sécurisation de choix et de nbthread
+	- possibilité d'entrer choix et nbthread en paramètre
+thread.c :
+	- cryptage simple des résultats => changement de base
+threa.h : 
+	- Refaire les plages avec les puissances de deux, et non 128000 par exemple
