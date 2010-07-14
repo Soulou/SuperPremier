@@ -3,7 +3,10 @@
 #include <stdarg.h>
 #include <string.h>
 
-void main()
+#include "io.h"
+#include "thread.h"
+
+int main()
 {
 	int choix = 0;
 	char schoix[10];
@@ -45,6 +48,7 @@ void main()
 		initThread(nbthread, choix);
 	}
 	printf("\n----- Fin du programme -----\n");
+    return 0;
 }
 	
 	

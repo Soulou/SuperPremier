@@ -6,6 +6,7 @@
 #include <sys/time.h>
 #include "thread.h"
 #include "io.h"
+#include "data.h"
 
 int sum(int n)
 {
