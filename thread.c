@@ -72,8 +72,7 @@ void initThread(int nbthread, int choix)
 	
     pthread_t t[nbthread];
 	struct plage p[9];
-	int i, max, min;
-	double taille;
+	int i;
 	for(i = 1; i <= nbthread; i++)
 	{
 		p[i].taille = pow((double)2,(double)(18+choix))/(nbthread*2-1);

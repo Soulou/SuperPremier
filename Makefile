@@ -1,4 +1,4 @@
-DEBUG=yes
+DEBUG=no
 
 ifeq ($(DEBUG),yes)
 	CFLAGS=-Wall -W -ansi -g -D DEBUG
