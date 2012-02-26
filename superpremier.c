@@ -16,7 +16,6 @@ int main()
 	/*introduction du programme*/
 	printf("----- Programme SuperPremier -----\n");
 	printf("Voici les nombres des premiers nombres premiers que vous pouvez chercher:\n");
-	printf("Cette version marche sur 2 threads uniquement.\n");
 	printf("\t0 : exit\t5 : 2M\n");
 	printf("\t1 : 128K\t6 : 4M\n");
 	printf("\t2 : 256K\t7 : 8M\n");
